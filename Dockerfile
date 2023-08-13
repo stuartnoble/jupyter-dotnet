@@ -5,7 +5,7 @@
 ARG base_image=jupyter/minimal-notebook
 FROM ${base_image} as base
 
-ARG NB_USER=jovyan
+ARG NB_USER=notebookuser
 ARG NB_UID=1000
 ENV USER ${NB_USER}
 ENV NB_UID ${NB_UID}
